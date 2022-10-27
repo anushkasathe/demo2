@@ -23,9 +23,6 @@ provider "genesyscloud" {
 }
 
 resource "genesyscloud_flow" "flow" {  
-filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/4e6e66efeac10926291bc07991b4ba180c31a6d9/JSON_FLOW_1.yaml"
-  substitutions = {
-    person_name         = "Add your name"
-  }
+filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/8bc0c273baafb854af1ed81cb64a75724aedd292/botFlow.yaml"
 }
        
